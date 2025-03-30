@@ -15,7 +15,7 @@ tqdm>=4.62.2
 mysqlclient>=2.0.3
 torch>=1.9.1
 torchvision>=0.10.1
-transformers>=4.12.2
+transformers>=4.48.0
 pycryptodome>=3.10.1
 # baidu-aip
 # torchsnooper
