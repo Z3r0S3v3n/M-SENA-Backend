@@ -2,7 +2,7 @@ flask>=2.0.1
 flask-sqlalchemy>=2.5.1
 flask-sockets>=0.2.1
 sqlalchemy>=1.4.22
-gevent>=21.8.0
+gevent>=25.4.1
 gevent-websocket>=0.10.1
 MMSA-FET >= 0.1.6
 numpy>=1.20.3
@@ -15,9 +15,10 @@ tqdm>=4.62.2
 mysqlclient>=2.0.3
 torch>=1.9.1
 torchvision>=0.10.1
-transformers>=4.12.2
+transformers>=4.50.0
 pycryptodome>=3.10.1
 # baidu-aip
 # torchsnooper
 # facenet_pytorch==0.4.0
 openpyxl>=3.0.9
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
